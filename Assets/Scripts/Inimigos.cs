@@ -6,7 +6,7 @@ public class Inimigos : MonoBehaviour
     public int vida;
     public bool Special;
 
-    void Atacar()
+    public void Atacar()
     {
 
         if (Special)
