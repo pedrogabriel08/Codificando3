@@ -19,6 +19,11 @@ public class NPC : MonoBehaviour
         juana.podeFalar = false;
         juana.idade = 25;
 
+        NPC ronaldo = new NPC();
+        ronaldo.nome = "Ronaldo";   
+        ronaldo.podeFalar = true;
+        ronaldo.idade = 40;
+
     }
 
   
