@@ -6,7 +6,6 @@ public class Coletável : MonoBehaviour
     public int valor;
     public bool raro;
     public string descrição;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Coletável moeda = new Coletável();
