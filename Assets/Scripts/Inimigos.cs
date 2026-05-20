@@ -8,14 +8,16 @@ public class Inimigos : MonoBehaviour
 
     void Atacar()
     {
-     
-        if (Special) {
+
+        if (Special)
+        {
             Debug.Log("Ataque Especial");
         }
         else
         {
             Debug.Log("Ataque Normal");
-        }   
+        }
+    }
     void Start()
     {
         
