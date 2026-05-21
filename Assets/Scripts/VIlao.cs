@@ -6,7 +6,7 @@ public class Vilao : Personagem
         {
             Vilao goblin = new Vilao();
             goblin.nome = "Goblin";
-            goblin.tipo = EnemyType.frac;
+            goblin.tipo = EnemyType.fraco;
             goblin.vida = 50;
             goblin.dano = 10;
             goblin.velocidade = 2.5f;
