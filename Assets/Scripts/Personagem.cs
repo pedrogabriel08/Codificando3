@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Personagem : MonoBehaviour
 {
+    public string tipo;
+    public string nome;
     public int vida;
     public int dano;
     public float velocidade;
